@@ -3,6 +3,7 @@ import Service from "./services/services";
 import About from "./about/about";
 import Image from "next/image";
 import Hero from "./hero/hero";
+import Profile from "./profile/profile";
 import { faBars, faCode, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -66,6 +67,7 @@ export default function Home() {
       <Hero />
       <About />
       <Service />
+      <Profile />
     </div>
   );
 }
