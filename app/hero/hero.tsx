@@ -28,12 +28,12 @@ export default function Hero(){
     return(
         <div className="flex px-10 md:px-10 items-center md:justify-around">
         <div>
-          <p className="font-semibold">UI/UX Designer</p>
-          <h1 className="text-4xl font-semibold">
+          <p className="font-semibold text-white">UI/UX Designer</p>
+          <h1 className="text-4xl font-semibold text-white">
             Hi, I&apos;m <span className="text-[#ff004f]">Ved Prakash</span>{" "}
             from India
           </h1>
-          <div className="App text-3xl font-semibold text-[linear-gradient]">
+          <div className="App text-3xl font-semibold text-white">
             <span ref={el} />
           </div>
         </div>

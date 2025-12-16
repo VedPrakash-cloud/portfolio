@@ -23,7 +23,7 @@ export default function About(){
             />
           </div>
           <div className="about-col-2 basis-2/3">
-            <h1 className="text-4xl font-semibold">About Me</h1>
+            <h1 className="text-4xl font-semibold text-white">About Me</h1>
             <p className="text-sm text-gray-400 opacity-70 py-2">
               Results-driven Team Leader and Sales Professional with over 10
               years of experience in the travel and customer service industry,
