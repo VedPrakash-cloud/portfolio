@@ -9,7 +9,7 @@ library.add(fas, far, fab, faCode);
 
 export default function service(){
     return(
-        <div id="service" className="px-10 md:px-30 py-10">
+        <div id="service" className="px-10 md:px-30 py-10 text-white">
             <div className="container">
                 <h1 className="sub-titles text-4xl font-semibold mb-10">My Services</h1>
                 <div className="service-list md:flex grid grid-flow-col grid-rows-3 gap-5">

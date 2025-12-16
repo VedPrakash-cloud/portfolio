@@ -34,7 +34,7 @@ export default function Home() {
           </li>
         </ul>
         <div
-          className="md:hidden text-2xl"
+          className="md:hidden text-2xl text-white"
           onClick={() => setIsActive(!isActive)}
         >
           {isActive ? (
@@ -43,7 +43,7 @@ export default function Home() {
             <FontAwesomeIcon icon={faBars} />
           )}
           {isActive && (
-            <ul className="md:hidden cursor-pointer">
+            <ul className="md:hidden cursor-pointer text-white">
               <li>
                 <a href="#">Home</a>
               </li>
