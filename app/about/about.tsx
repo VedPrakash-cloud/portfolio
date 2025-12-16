@@ -11,14 +11,14 @@ export default function About(){
       }
 
     return(
-        <div className="px-25 py-10 md:flex justify-around flex-wrap">
+        <div className="px-10 md:px-25 py-10 md:flex justify-around flex-wrap">
           <div className="about-col-1 basis-1/4 mb-5">
             <Image
               src="/WhatsApp Image.jpeg"
               alt="About Me"
               width={500}
               height={20}
-              className="rounded-2xl brightness-128 duration-300 ease-in-out hover:scale-105"
+              className="rounded-2xl brightness-128 shadow-md shadow-white/30 duration-300 ease-in-out hover:scale-105"
               priority
             />
           </div>
