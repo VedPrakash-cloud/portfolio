@@ -8,12 +8,20 @@ import Contact from "./contact/contact";
 import { faBars, faCode, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 library.add(faCode);
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
+
+  useEffect(()=>{
+    if(isActive){
+      document.body.style.overflow = "hidden";
+    } else{
+      document.body.style.overflow = "auto";
+    }
+  },[isActive])
   return (
     <div className="bg-black">
       <nav className="flex justify-between md:justify-around items-center bg-black p-4">
@@ -36,13 +44,13 @@ export default function Home() {
           </li>
         </ul>
         <div
-          className="md:hidden text-2xl text-white"
+          className="ham md:hidden text-2xl text-white"
           onClick={() => setIsActive(!isActive)}
         >
           {isActive ? (
-            <FontAwesomeIcon icon={faXmark} />
+            <FontAwesomeIcon icon={faXmark} className="cross" />
           ) : (
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars}/>
           )}
           {isActive && (
             <ul className="md:hidden cursor-pointer text-white">

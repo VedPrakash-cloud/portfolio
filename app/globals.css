@@ -61,3 +61,29 @@ nav ul li a:hover::after{
   height: 100%;
   object-fit: fill;
 }
+
+.ham ul{
+  background: linear-gradient(90deg, rgba(0,0,0,0.6), #ff004f);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 310px;
+  height: 100vh;
+  padding-top: 50px;
+  z-index:2;
+  scroll-behavior: none;
+  transition-duration: 0.5s;
+}
+
+.ham ul li{
+  display: block;
+  margin: 25px;
+}
+
+.cross{
+  position: absolute;
+  top: 25px;
+  left: 110px;
+  z-index: 5;
+  cursor: pointer;
+}
