@@ -6,7 +6,7 @@ export default function Contact(){
     return (
         <div>
             <div className="container">
-                <div className="row grid md:flex gap-20 px-10 md:px-25 py-10">
+                <div className="row grid md:flex gap-20 px-10 md:px-25 py-10 text-white">
                     <div className="contact-left">
                         <h1 className="text-4xl font-semibold text-white mb-5 md:mb-8">
                             Contact Me

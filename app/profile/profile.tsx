@@ -46,7 +46,9 @@ export default function Profile() {
           ))}
         </div>
         <div className="flex justify-center">
-          <button className="cursor-pointer py-2 px-5 my-5 border border-[#ff004f] justify-center hover:bg-[#ff004f] hover:shadow-lg hover:shadow-[#ff004f]/50 duration-900 ease-in-out rounded-lg font-semibold" onClick={()=>setIsOpen(!isOpen)}>
+          <button 
+          className="cursor-pointer text-white py-2 px-5 my-5 border border-[#ff004f] justify-center hover:bg-[#ff004f] hover:shadow-lg hover:shadow-[#ff004f]/50 duration-900 ease-in-out rounded-lg font-semibold" 
+          onClick={()=>setIsOpen(!isOpen)}>
           {isOpen ? "View Less" : "View More"}
         </button>
         </div>
