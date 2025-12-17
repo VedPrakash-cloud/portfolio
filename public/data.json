@@ -1,0 +1,91 @@
+[{
+    "id":1,
+    "image":"QKart.jpg",
+    "title":"QKart-E-Commerce Web Application",
+    "discription":"A full-featured e-commerce web application that allows users to browse products, add items to cart, and place orders with a smooth user experience. React.js, JavaScript, HTML, CSS, REST APIs",
+    "url":"https://rocky007ved-me-qkart-frontend-v2.vercel.app/"
+},
+{
+    "id":2,
+    "image":"bot-AI.jpg",
+    "title":"Bot AI-Intelligent Chat Assistant",
+    "discription":"An AI-powered chatbot that responds to user queries in real time, providing smart and interactive conversations through a simple interface. JavaScript, AI API, HTML, CSS",
+    "url":"https://bot-ai-two-steel.vercel.app/"
+},
+{
+    "id":3,
+    "image":"browser-extension.jpg",
+    "title":"Browser Extension-Extension Manager UI",
+    "discription":"A browser extension interface that allows users to manage and toggle extensions easily with a clean and responsive UI. HTML, CSS, JavaScript, JSON",
+    "url":"https://browser-extension-mauve-pi.vercel.app/"
+},
+{
+    "id":4,
+    "image":"medify.jpg",
+    "title":"Medify-Healthcare Finder App",
+    "discription":"A web application that helps users find hospitals across U.S. states with slot availability using a clean and user-friendly interface. React.js, JavaScript, HTML, CSS, REST API",
+    "url":"https://medify-eta-hazel.vercel.app/"
+},
+{
+    "id":5,
+    "image": "expense-tracker.jpg",
+    "title":"Expense Tracker-Personal Finance App",
+    "discription":"A web application that helps users track income and expenses, manage budgets, and view spending summaries through a simple interface. JavaScript, HTML, CSS, Local Storage.",
+    "url":"https://x-expense-tracker-teal.vercel.app/"
+},
+{
+    "id":6,
+    "image":"pricing-slider.jpg",
+    "title":"Pricing Slider-Interactive UI Component",
+    "discription":"An interactive pricing slider that dynamically updates pricing based on user input, providing a smooth and responsive user experience. HTML, CSS, JavaScript.",
+    "url":"https://pricing-slider-lake.vercel.app/"
+},
+{
+    "id":7,
+    "image":"QEvent.jpg",
+    "title":"QEvent-Event Management Web App",
+    "discription":"A web application that allows users to browse events, view details, and manage event information through a simple and interactive interface. React.js, JavaScript, HTML, CSS, REST APIs",
+    "url":"https://qvent-project.vercel.app/"
+},
+{
+    "id":8,
+    "image":"Qtify.jpg",
+    "title":"Qtify-Music Album Explorer",
+    "discription":"Qtify is a responsive music album web application built using React.js. It fetches real-time album data from a REST API and allows users to browse, search, and filter music albums seamlessly.",
+    "url":"https://qtify-omega-ten.vercel.app/"
+},
+{
+    "id":9,
+    "image":"QTrip-Dynamic.jpg",
+    "title":"QTrip Dynamic",
+    "discription":"QTrip Dynamic is a React-based travel web application that fetches destination and adventure data dynamically from APIs. It allows users to browse locations, apply filters, sort results, and view detailed adventure information with a responsive UI.",
+    "url":"https://qtrip-dynamic-wine-chi.vercel.app/"
+},
+{
+    "id":10,
+    "image":"ticket-generator.jpg",
+    "title":"Ticket Generator – Event Ticket Creator",
+    "discription":"A web app that generates personalized event tickets based on user input, allowing users to preview and download the ticket instantly.HTML, CSS, JavaScript",
+    "url":"https://ticket-generator-iota-mocha.vercel.app/"
+},
+{
+    "id":11,
+    "image":"QTrip-static.jpg",
+    "title":"QTrip Static – Travel Destination Website",
+    "discription":"A static travel website that showcases destinations with detailed pages, images, and structured layouts for easy exploration.HTML, CSS, JavaScript",
+    "url":"https://rocky007ved-me-qtripstatic.vercel.app/"
+},
+{
+    "id":12,
+    "image":"calculator.jpg",
+    "title":"Calculator – Basic Arithmetic App",
+    "discription":"A simple calculator that performs basic arithmetic operations with a clean and responsive interface. HTML, CSS, JavaScript",
+    "url":"https://calculator-dun-seven-20.vercel.app/"
+},
+{
+    "id":13,
+    "image":"advice-generator.jpg",
+    "title":"Advice Generator-Random Advice App",
+    "discription":"A simple web application that fetches and displays random advice from an API with a clean and responsive user interface. HTML, CSS, JavaScript, REST API.",
+    "url":"https://advise-zeta.vercel.app/"
+}]

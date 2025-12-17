@@ -26,25 +26,26 @@ export default function Hero(){
       }, []);
       
     return(
-        <div className="flex px-10 md:px-10 items-center md:justify-around">
+        <div className="flex mx-10 md:px-25 justify-between items-center">
         <div>
-          <p className="font-semibold text-white text-xs md:text-sm">UI/UX Designer</p>
-          <h1 className="text-2xl md:text-4xl font-semibold text-white">
+          <p className="font-semibold text-white text-xs md:text-xs">UI/UX Designer</p>
+          <h1 className="text-xl md:text-4xl font-semibold text-white">
             Hi, I&apos;m <span className="text-[#ff004f]">Ved Prakash</span>{" "}
             from India
           </h1>
-          <div className="App text-lg md:text-3xl font-semibold text-white">
+          <div className="App text-sm md:text-3xl font-semibold text-white">
             <span ref={el} />
           </div>
         </div>
-        <Image
+        <div className="relative w-full md:w-sm aspect-square">
+          <Image
           src="/white-background-Photoroom.png"
           alt="hero image"
-          width={300}
-          height={20}
-          className="hero mask-radial-[100%_32%] mask-radial-from-75% mask-radial-at"
+          fill
+          className="hero object-cover mask-radial-[100%_32%] mask-radial-from-75% mask-radial-at"
           priority
         />
+        </div>
       </div>
     )
 }

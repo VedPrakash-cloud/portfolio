@@ -68,6 +68,6 @@
 .img:hover{
   transform: scale(1.04);
 }
-.work:hover .layer{
+.relative:hover .layer{
   height: 100%;
 }
