@@ -68,22 +68,11 @@ nav ul li a:hover::after{
   top: 0;
   right: 0;
   width: 310px;
-  height: 100vh;
+  height: 100dvh;
   padding-top: 50px;
-  z-index:2;
-  scroll-behavior: none;
-  transition-duration: 0.5s;
 }
 
 .ham ul li{
   display: block;
   margin: 25px;
-}
-
-.cross{
-  position: absolute;
-  top: 25px;
-  left: 110px;
-  z-index: 5;
-  cursor: pointer;
 }
