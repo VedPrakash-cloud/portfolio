@@ -11,14 +11,14 @@ export default function About(){
       }
 
     return(
-        <div className="px-10 md:px-25 py-10 md:flex justify-around flex-wrap">
+        <div id="about" className="px-10 md:px-25 py-10 md:flex justify-around flex-wrap">
           <div className="about-col-1 basis-1/4 mb-5">
             <Image
-              src="/WhatsApp Image.jpeg"
+              src="/Hero1.jpeg"
               alt="About Me"
               width={500}
               height={20}
-              className="rounded-2xl brightness-128 shadow-md shadow-white/30 duration-300 ease-in-out hover:scale-105"
+              className="rounded-2xl brightness-90 shadow-md shadow-white/30 duration-300 ease-in-out hover:scale-105"
               priority
             />
           </div>
@@ -91,23 +91,36 @@ export default function About(){
             {activeTab === "experience" && (
               <div className="tab-contents my-5">
                 <ul>
-                  <li className="mb-2 text-gray-100 opacity-70">
-                    <span className="text-xs text-[#b54769] font-semibold">
-                      Experience
+                  <li className="mb-2 text-gray-100 opacity-70 text-sm">
+                    <span className="text-sm text-[#b54769] font-semibold">
+                      Frontend Developer — Project-Based Experience
+                      <p className="text-xs">React.js & Next.js | Personal & Crio.do Projects</p>
                     </span>{" "}
-                    <br /> Designing Web interfaces
+                    <br /> Built 13+ production-ready projects using JS, React.js and Next.js
+                    <br /> Implemented features like API integration, search, filtering, routing, and authentication.
+                    <br /> Focused on responsive UI, performance optimization, and clean component architecture.
+                    <br /> Used modern tools including Git, Axios, REST APIs, Tailwind CSS, and MUI.
+                    <br /> Deployed applications and followed industry-level coding practices
+                  </li>
+                  <li className="mb-2 text-gray-100 opacity-70 text-sm">
+                    <span className="text-sm text-[#b54769] font-semibold">
+                     Team Lead — Sales & Operations
+                     <p className="text-xs">Viaggio Managment Pvt. Ltd. <span className="text-xs text-[#ff004f]">(2023-2025)</span></p>
+                    </span>{" "}
+                    <br />Managed a team of 10 sales executives, driving operational efficiency and target delivery.
+                    <br />Planned shift schedules (rostering) and optimized resource utilization (headcount management).
+                    <br />Monitored KPIs and ensured monthly targets were met consistently.
+                    <br />Improved team performance through guidance, feedback, and process alignment.
                   </li>
                   <li className="mb-2 text-gray-100 opacity-70">
                     <span className="text-xs text-[#b54769] font-semibold">
-                      Experience
+                      Team Lead — US Sales
+                      <p className="text-xs">Travel Unravel Holidays Pvt. Ltd. <span className="text-xs text-[#ff004f]">(2015-2022)</span></p>
                     </span>{" "}
-                    <br /> Web App Development
-                  </li>
-                  <li className="mb-2 text-gray-100 opacity-70">
-                    <span className="text-xs text-[#b54769] font-semibold">
-                      Experience
-                    </span>{" "}
-                    <br /> Designing App interfaces{" "}
+                    <br />Promoted from Senior Sales Executive to Team Lead.
+                    <br />Led the US sales team, driving revenue and meeting monthly delivery targets.
+                    <br />Acted as the primary point of coordination between management and sales teams.
+                    <br />Handled end-to-end customer interactions for the US travel market.
                   </li>
                 </ul>
               </div>
@@ -117,21 +130,22 @@ export default function About(){
                 <ul>
                   <li className="mb-2 text-gray-100 opacity-70">
                     <span className="text-xs text-[#b54769] font-semibold">
-                      Education
+                      Full Stack Development Program
                     </span>{" "}
-                    <br /> Designing Web interfaces
+                    <br /> <p className="font-semibold">Crio.Do <span className="text-xs text-[#ff004f]">(2024-2025)</span></p>
+                    <p className="text-xs">Hands-on training in modern web technologies, real-world projects, and best coding practices</p>
                   </li>
                   <li className="mb-2 text-gray-100 opacity-70">
                     <span className="text-xs text-[#b54769] font-semibold">
-                      Education
+                      Bachelor’s Degree (Graduation)
                     </span>{" "}
-                    <br /> Web App Development
+                    <br /> <p className="font-semibold">Sam Higginbottom University of Agriculture, Technology, and Sciences (SHUATS) <span className="text-xs text-[#ff004f]">(2011-2013)</span></p>
                   </li>
                   <li className="mb-2 text-gray-100 opacity-70">
                     <span className="text-xs text-[#b54769] font-semibold">
-                      Education
+                      Class XII (Higher Secondary)
                     </span>{" "}
-                    <br /> Designing App interfaces{" "}
+                    <br /> <p className="font-semibold">Sardar Patel Aadarsh Intermediate College <span className="text-xs text-[#ff004f]">(2010)</span></p>
                   </li>
                 </ul>
               </div>

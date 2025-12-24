@@ -26,7 +26,7 @@ export default function Hero(){
       }, []);
       
     return(
-        <div className="grid md:flex mx-10 md:px-25 py-10 justify-between items-center">
+        <div id="hero" className="grid md:flex mx-10 md:px-25 py-10 justify-between items-center">
         <div>
           <p className="font-semibold text-white text-sm">UI/UX Designer</p>
           <h1 className="text-4xl font-semibold text-white">
@@ -39,10 +39,10 @@ export default function Hero(){
         </div>
         <div className="relative w-full md:w-sm aspect-square">
           <Image
-          src="/white-background-Photoroom.png"
+          src="/Hero2.jpeg"
           alt="hero image"
           fill
-          className="hero object-cover mask-radial-[100%_32%] mask-radial-from-75% mask-radial-at"
+          className="hero object-cover rounded-4xl mask-radial-[50%_52%] mask-radial-from-45%"
           priority
         />
         </div>

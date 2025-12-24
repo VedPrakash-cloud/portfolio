@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact(){
     return (
-        <div>
+        <div id="contact">
             <div className="container">
                 <div className="row grid md:flex gap-20 px-10 md:px-25 py-10 text-white">
                     <div className="contact-left">

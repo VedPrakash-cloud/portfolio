@@ -5,7 +5,7 @@ import Image from "next/image";
 import Hero from "./hero/hero";
 import Profile from "./profile/profile";
 import Contact from "./contact/contact";
-import { faBars, faCode, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faCode, faHeart, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect } from "react";
@@ -43,16 +43,16 @@ export default function Home() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#service">Services</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#profile">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <div
@@ -74,16 +74,16 @@ export default function Home() {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#service">Services</a>
               </li>
               <li>
-                <a href="#">Portfolio</a>
+                <a href="#profile">Portfolio</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           )}
@@ -94,6 +94,9 @@ export default function Home() {
       <Service />
       <Profile />
       <Contact />
+      <footer className="text-center bg-[#262626] py-4 text-xs md:text-sm">
+        Copyright &copy; Ved. Made with <FontAwesomeIcon icon={faHeart} className="text-[#ff004f]"/>.
+      </footer>
     </div>
   );
 }
