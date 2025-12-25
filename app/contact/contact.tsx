@@ -26,7 +26,7 @@ export default function Contact(){
                             <a href="https://www.linkedin.com/in/ved-prakash-chaubey-563b44142" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedinIn} className="mr-5 hover:text-[#ff004f] duration-600 ease-in-out"/></a>
                             <a href="https://github.com/VedPrakash-cloud" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className="hover:text-[#ff004f] duration-600 ease-in-out"/></a>
                         </div>
-                        <a href="/Ved_prakash_1764755435311.pdf" download className="border border-[#ff004f] py-3 px-10 rounded-lg hover:bg-[#ff004f] duration-900 ease-in-out cursor-pointer hover:shadow-lg shadow-[#ff004f]/50">Download CV</a>
+                        <a href="/Ved_prakash_resume.pdf" download className="border border-[#ff004f] py-3 px-10 rounded-lg hover:bg-[#ff004f] duration-900 ease-in-out cursor-pointer hover:shadow-lg shadow-[#ff004f]/50">Download CV</a>
                     </div>
                     <div className="contact-right">
                         <form>
