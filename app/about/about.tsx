@@ -112,7 +112,7 @@ export default function About(){
                     <br />Monitored KPIs and ensured monthly targets were met consistently.
                     <br />Improved team performance through guidance, feedback, and process alignment.
                   </li>
-                  <li className="mb-2 text-gray-100 opacity-70">
+                  <li className="mb-2 text-gray-100 opacity-70 text-sm">
                     <span className="text-xs text-[#b54769] font-semibold">
                       Team Lead — US Sales
                       <p className="text-xs">Travel Unravel Holidays Pvt. Ltd. <span className="text-xs text-[#ff004f]">(2015-2022)</span></p>
