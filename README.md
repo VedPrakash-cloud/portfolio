@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Ved Prakash – Frontend / Full-Stack Developer Portfolio
 
-## Getting Started
+This repository contains the source code of my **personal developer portfolio**, built using **Next.js, React, and Tailwind CSS**, to showcase my projects, skills, and professional journey as a Frontend / Full-Stack Developer.
 
-First, run the development server:
+🌐 **Live Portfolio:**  
+https://portfolio-omega-two-e1uw8c20us.vercel.app/
+
+📂 **GitHub Repository:**  
+https://github.com/VedPrakash-cloud/portfolio
+
+---
+
+## ✨ Overview
+
+I am a **Frontend / Full-Stack Developer** with hands-on experience in building modern, responsive, and scalable web applications using **React, Next.js, and the MERN stack**.
+
+Along with strong technical skills, I bring **14+ years of team leadership and client-facing experience**, which helps me design solutions aligned with real business requirements and user needs.
+
+---
+
+## ✨ Key Features
+
+- ⚡ Built with **Next.js (App Router)**
+- 🎨 Clean & responsive UI using **Tailwind CSS**
+- 🧩 Reusable and modular React components
+- 📱 Fully responsive across all devices
+- 🚀 Deployed on **Vercel**
+- 📄 Resume download & contact section
+- 🔍 SEO-friendly structure
+
+---
+## 📸 Desktop Screenshots
+
+### Home Page
+![Home Page](public/screenshots/Hero.png)
+
+### About Section
+![About Section](public/screenshots/About-me.png)
+
+### Services Section
+![Services](public/screenshots/services.png)
+
+### Project Section
+![Projects](public/screenshots/projects.png)
+
+### Contact Section
+![Contact](public/screenshots/contact-me.png)
+
+## 📱 Mobile Screenshots
+
+### Home Page
+![Home Page](public/screenshots/mobile_home.png)
+
+### Hero Section
+![Hero Section](public/screenshots/mobile_hero.png)
+
+### About Section
+![About Section](public/screenshots/mobile_about_me.png)
+
+### Services Section
+![Services Section](public/screenshots/mobile_services.png)
+
+### Project Section
+![Project Section](public/screenshots/mobile_projects.png)
+
+### Contact Section
+![Contact Section](public/screenshots/mobile_contact.png)
+
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Next.js
+- JavaScript (ES6+)
+- TypeScript (Basic)
+- Tailwind CSS
+- Material UI
+
+### Backend & APIs
+- REST APIs
+- JWT Authentication (project based)
+
+### Tools & Platforms
+- Git & GitHub
+- Vercel
+- Netlify
+- ESLint
+- PostCSS
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+src/
+├── app/
+│   ├── page.tsx            # Home page
+│   ├── layout.tsx         # Root layout
+│   ├── globals.css
+│   ├── favicon.ico
+│   ├── about/
+│   │   └── about.tsx
+│   ├── contact/
+│   │   └── contact.tsx
+│   ├── hero/
+│   │   └── hero.tsx
+│   ├── profile/
+│   │   └── profile.tsx
+│   └── services/
+│       └──services.tsx
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── ProjectCard.tsx
+│   └── ContactForm.tsx
+│
+├── utils/
+│   └── constants.ts
+│
+├── hooks/
+│   └── useScroll.ts
+│
+└── styles/
+    └── globals.css
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
