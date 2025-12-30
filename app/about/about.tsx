@@ -27,7 +27,7 @@ export default function About(){
             <p className="text-sm text-gray-400 opacity-70 py-2">
               As a developer who designs, I love building products that not only look great but also perform exceptionally. Currently exploring the depths of full-stack development and refining my design sense one pixel at a time.
               <br />
-              Sales professional turned UI/UX Designer & Web Developer. I combine 10 years of client handling experience with modern tech stacks like React and Figma.
+              Sales professional turned UI/UX Designer & Web Developer. I combine 14 years of client handling experience with modern tech stacks like React and Figma.
             </p>
             <div className="tab-titles flex text-gray-100 opacity-70">
               <p

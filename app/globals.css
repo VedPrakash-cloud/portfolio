@@ -28,6 +28,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme{
+  --color-custom-bg: var(--background);
+  --color-custom-text: var(--foreground);
+}
+
 nav ul li a{
   position: relative;
 }

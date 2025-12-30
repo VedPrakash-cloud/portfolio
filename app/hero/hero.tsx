@@ -10,8 +10,8 @@ export default function Hero(){
         const typed = new Typed(el.current, {
           strings: [
             "<i>UI/UX</i> Designer",
+            "&amp; React.js Next.js Developer",
             "&amp; Web Developer",
-            "&amp; React Next js",
           ],
           typeSpeed: 90,
           backSpeed:30,
